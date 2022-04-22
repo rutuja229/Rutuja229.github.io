@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
 
-You can use the [editor on GitHub](https://github.com/rutuja229/Rutuja229.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
 
-### Markdown
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<input type=hidden name="oid" value="00D5i0000011wNi">
+<input type=hidden name="retURL" value="http://www.sfdc.com/Welcome.html">
 
-```markdown
-Syntax highlighted code block
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="rutuja.metkar@zensar.com">                                       -->
+<!--  ----------------------------------------------------------------------  -->
 
-# Header 1
-## Header 2
-### Header 3
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
-- Bulleted
-- List
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-1. Numbered
-2. List
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-**Bold** and _Italic_ and `Code` text
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-[Link](url) and ![Image](src)
-```
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-### Jekyll Themes
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rutuja229/Rutuja229.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<label for="industry">Industry</label><select  id="industry" name="industry"><option value="">--None--</option><option value="Agriculture">Agriculture</option>
+<option value="Apparel">Apparel</option>
+<option value="Banking">Banking</option>
+<option value="Biotechnology">Biotechnology</option>
+<option value="Chemicals">Chemicals</option>
+<option value="Communications">Communications</option>
+<option value="Construction">Construction</option>
+<option value="Consulting">Consulting</option>
+<option value="Education">Education</option>
+<option value="Electronics">Electronics</option>
+<option value="Energy">Energy</option>
+<option value="Engineering">Engineering</option>
+<option value="Entertainment">Entertainment</option>
+<option value="Environmental">Environmental</option>
+<option value="Finance">Finance</option>
+<option value="Food &amp; Beverage">Food &amp; Beverage</option>
+<option value="Government">Government</option>
+<option value="Healthcare">Healthcare</option>
+<option value="Hospitality">Hospitality</option>
+<option value="Insurance">Insurance</option>
+<option value="Machinery">Machinery</option>
+<option value="Manufacturing">Manufacturing</option>
+<option value="Media">Media</option>
+<option value="Not For Profit">Not For Profit</option>
+<option value="Recreation">Recreation</option>
+<option value="Retail">Retail</option>
+<option value="Shipping">Shipping</option>
+<option value="Technology">Technology</option>
+<option value="Telecommunications">Telecommunications</option>
+<option value="Transportation">Transportation</option>
+<option value="Utilities">Utilities</option>
+<option value="Other">Other</option>
+</select><br>
 
-### Support or Contact
+<input type="submit" name="submit">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</form>
